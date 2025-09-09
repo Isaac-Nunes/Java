@@ -1,0 +1,28 @@
+cd C:\Users\Suporte\Documents\NetBeansProjects\ExemploSoma; "JAVA_HOME=C:\\Program Files\\Java\\jdk-22" cmd /c "\"C:\\Program Files\\NetBeans-22\\netbeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" \"-Dexec.executable=C:\\Program Files\\Java\\jdk-22\\bin\\java.exe\" -Dexec.mainClass=com.mycompany.exemplosoma.ExemploSoma -Dexec.classpathScope=runtime -Dexec.appArgs= \"-Dmaven.ext.class.path=C:\\Program Files\\NetBeans-22\\netbeans\\java\\maven-nblib\\netbeans-eventspy.jar\" --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.1.0:exec"
+Scanning for projects...
+
+---------------------< com.mycompany:ExemploSoma >----------------------
+Building ExemploSoma 1.0-SNAPSHOT
+  from pom.xml
+--------------------------------[ jar ]---------------------------------
+
+--- resources:3.3.1:resources (default-resources) @ ExemploSoma ---
+skip non existing resourceDirectory C:\Users\Suporte\Documents\NetBeansProjects\ExemploSoma\src\main\resources
+
+--- compiler:3.11.0:compile (default-compile) @ ExemploSoma ---
+Changes detected - recompiling the module! :source
+Compiling 1 source file with javac [debug target 22] to target\classes
+
+--- exec:3.1.0:exec (default-cli) @ ExemploSoma ---
+Digite um numero: 
+7
+Digite outro numero:
+7
+O primeiro numero e 7 e o segundo e 7
+A soma dos dois numeros e 14.0
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  6.605 s
+Finished at: 2025-08-20T21:43:11-03:00
+------------------------------------------------------------------------
